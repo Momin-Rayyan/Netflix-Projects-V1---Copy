@@ -87,4 +87,17 @@ transition-delay:(0.2s);
 .no{
     display: flex;
     height:45vh;
+    overflow-y: hidden;
+}
+.no{
+    display: flex;
+    height:43vh;
+    overflow-y: hidden;
+}
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 5px;
 }
